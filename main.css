@@ -84,3 +84,125 @@ li span {
         font-size: calc(3.375rem * var(--smaller));
     }
 }
+
+
+/* ----------------------landing page--------------- */
+#landdiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: center;
+}
+#landdiv2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+@media all and (min-width:768px){
+    #landdiv1{
+        height: 100vh;
+    }
+    #landdiv2{
+        height: 100vh;
+    }
+}
+#landdiv2 img{
+    width: 100%;
+}
+#landdiv1 h1{
+    text-align: start;
+    font-size: 3rem;
+}
+#landdiv1 button{
+    padding: 3px 36px;
+    border: none;
+    text-decoration: none;
+    background-color: #ef4444;
+    border: 2px solid #ef4444;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 3px;
+}
+#landdiv1 button:hover{
+    background-color: transparent;
+    color: #ef4444;
+}
+#landdiv1 p{
+    font-size: 1.3rem;
+    text-align: start;
+    color: white;
+}
+@media all and (max-width:991px){
+    #landdiv1 h1{
+        font-size: 2rem;
+    }
+    #landdiv1 p{
+        font-size: 1.1rem;
+    }
+}
+@media all and (max-width:767px){
+    #landdiv2 img{
+        margin-bottom: 20px;
+    }
+    #landdiv1 h1{
+        font-size: 2rem;
+        margin-bottom: 5px !important;
+    }
+    #landdiv1 p{
+        margin-bottom: 5px !important;
+    }
+}
+/* ---------------------------end---------------------- */
+
+
+/* --------------about-------------------------- */
+#aboutline{
+    margin-top: 20px;
+    height: 8px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #ef4444;
+}
+.abthead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media all and (min-width:768px){
+    .abthead{
+        height: 100vh;
+    }
+}
+.abthead h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.abtpara p{
+    color: white;
+    font-size: 1.3rem;
+    text-align: left;
+}
+.abtpara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media all and (max-width:991px){
+    .abthead h1{
+        font-size: 3rem;
+    }
+    .abtpara p{
+        font-size: 1.1rem;
+    }  
+}
+@media all and (max-width:767px){
+    #aboutline{
+        margin-top: 8px;
+        margin-bottom: 12px;
+    } 
+}
