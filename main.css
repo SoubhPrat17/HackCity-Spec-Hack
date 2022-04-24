@@ -1,90 +1,9 @@
 * {
     background-color: #1f2937;
-}
-
-h1 {
-    color: #ef4444;
-}
-
-* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-}
-
-body {
-    align-items: center;
-    background-color:#1f2937;
-    display: flex;
-    font-family: -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Oxygen-Sans,
-        Ubuntu,
-        Cantarell,
-        "Helvetica Neue",
-        sans-serif;
-}
-
-.container {
-    color: #ef4444;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-}
-
-h1 {
-    font-weight: normal;
-    letter-spacing: .125rem;
-    text-transform: uppercase;
-}
-
-li {
-    display: inline-block;
-    font-size: 1.5em;
-    font-weight: 600;
-    list-style-type: none;
-    padding: 1em;
-    text-transform: uppercase;
-    margin: 0 2rem;
-}
-
-li span {
-    display: block;
-    font-size: 4.5rem;
-}
-
-.emoji {
-    display: none;
-    padding: 1rem;
-}
-
-.emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
-}
-
-@media all and (max-width: 768px) {
-    h1 {
-        font-size: calc(1.5rem * var(--smaller));
-    }
-
-    li {
-        font-size: calc(1.125rem * var(--smaller));
-    }
-
-    li span {
-        font-size: calc(3.375rem * var(--smaller));
-    }
-}
-
 
 /* ----------------------landing page--------------- */
 #landdiv1{
@@ -184,7 +103,7 @@ li span {
 .abtpara p{
     color: white;
     font-size: 1.3rem;
-    text-align: left;
+    text-align: justify;
 }
 .abtpara{
     display: flex;
@@ -205,4 +124,69 @@ li span {
         margin-top: 8px;
         margin-bottom: 12px;
     } 
+}
+
+/* <----------Countdown Timer-----------> */
+
+h1 {
+    color: #ef4444;
+}
+
+body {
+    /* align-items: center; */
+    background-color:#1f2937;
+    /* display: flex; */
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen-Sans,
+        Ubuntu,
+        Cantarell,
+        "Helvetica Neue",
+        sans-serif;
+}
+
+.container {
+    color: #ef4444;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0%;
+    display: block;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 600;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    margin: 0 2rem;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
 }
